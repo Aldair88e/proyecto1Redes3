@@ -1,0 +1,52 @@
+
+	<html>
+		<head>
+			<title>Reporte</title>
+			<style type="text/css">
+				.contenedor{
+					display:flex;
+					flex-direction:column;
+					align-items:center;
+				}
+				.logo {
+					width: 200px;
+					padding: 1rem;
+				}
+				.encabezado{
+					display:flex;
+					justify-content: space-evenly;
+					width:50%
+				}
+				.graficas{
+					display:flex;
+					flex-direction:column;
+					align-items:center;
+				}
+				.graph{
+					width:50%;
+				}
+			</style>
+		</head>
+		<body>	<div class = "contenedor">
+			<div class = "encabezado">
+				<img class="logo" src = "windows.png">
+				<div>
+					<h3>Hardware: AMD64 Family 23 Model 104 Stepping 1 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 22000 Multiprocessor Free)</h3>
+					<p>Ubicacion: Home - Aldair</p>
+					<p>Numero de interfaces de red: 60</p>
+					<p>Tiempo desde el ultimo reinicio: 28898718</p>
+					<p>Comunidad: comunidadASR</p>
+					<p>Host:192.168.0.101</p>
+				</div>
+			</div>
+			</div>
+			<div class = "graficas">
+				<img class = "graph" src = "192.168.0.101_ucast.png">
+				<img class = "graph" src = "192.168.0.101_pktsIP.png">
+				<img class = "graph" src = "192.168.0.101_ICMPecho.png">
+				<img class = "graph" src = "192.168.0.101_TCPSeg.png">
+				<img class = "graph" src = "192.168.0.101_datagrams.png">
+			</div>
+		</body>
+	</html>
+	
